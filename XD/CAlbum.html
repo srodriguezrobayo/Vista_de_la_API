@@ -36,7 +36,7 @@
             <thead>
                 <tr>
                     <th colspan="2">
-                        <h1 class="fs-1 fst-italic fw-semibold">Agregar Cancion</h1>
+                        <h1 class="fs-1 fst-italic fw-semibold">Agregar Album</h1>
                         <br>
                     </th>
                 </tr>
@@ -44,7 +44,7 @@
             <tbody>
                 <tr>
                     <td>
-                        <label for="Titulo" class="form-label">Titulo de la Cancion</label>
+                        <label for="Titulo" class="form-label">Titulo de la album</label>
                     </td>
                 </tr>
                 <tr>
@@ -55,34 +55,49 @@
                 </tr>
                 <tr>
                     <td colspan="2">
-                        <label for="Minutos" class="form-label">Minutos de duracion</label>
+                        <label for="anio" class="form-label">Año del album</label>
                     </td>
                 </tr>
                 <tr>
                     <td colspan="2">
-                        <input type="number"  name="Minutos" class="form-control" placeholder="Minutos" required aria-label="default input example">
+                        <input type="number"  name="anio" class="form-control" placeholder="Año" required aria-label="default input example">
                         <br>
                     </td>
                 </tr>
                 <tr>
                     <td colspan="2">
-                        <label for="segundos" class="form-label">Segundos de duracion</label>
+                        <label for="descripcion" class="form-label">Descripcion del album</label>
                     </td>
                 </tr>
                 <tr>
                     <td colspan="2">
-                        <input type="number" name="Segundos" class="form-control" placeholder="Segundos" required aria-label="default input example">
+                        <input type="text" name="descripcion" class="form-control" placeholder="Descripcion" required aria-label="default input example">
                         <br>
                     </td>
                 </tr>
                 <tr>
-                    <td colspan="2">
-                        <label for="Interprete" class="form-label">Interprete de la cancion</label>
+                    <td>
+                        <label for="MEDIO" class="form-label">Frutas</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <select name="MEDIO" class="form-control mi-select" title="Selecciona un medio">
+                            <option value="nada">Selecciona un medio</option>
+                            <option value="DISCO">DISCO</option>
+                            <option value="CD">CD</option>
+                            <option value="CASETE">CASETE</option>
+                        </select>
                     </td>
                 </tr>
                 <tr>
                     <td colspan="2">
-                        <input type="Text"  name="Interprete" class="form-control" placeholder="Interprete" required aria-label="default input example">
+                        <label for="Usuario" class="form-label">Nombre Usuario</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="Text"  name="Usuario" class="form-control" placeholder="Nombre Usuario" required aria-label="default input example">
                         <br>
                     </td>
                 </tr>

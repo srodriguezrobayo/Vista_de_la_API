@@ -44,4 +44,12 @@ input[type="number"]{
 #saludo{
   text-align: center;
 }
+.container {
+  text-align: right;
+  float: right;
+}
+.mi-select {
+  background-color: #F1F0E8;
+}
+
 
