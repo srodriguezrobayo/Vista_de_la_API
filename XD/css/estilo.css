@@ -51,5 +51,23 @@ input[type="number"]{
 .mi-select {
   background-color: #F1F0E8;
 }
-
-
+#albumes{
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin: auto;
+  background-color: transparent;
+  padding: 100%;
+  border: 25px solid #96B6C5;
+}
+#album{
+  background-color: black;
+  border: 20px solid #96B6C5;
+}
+#TituloCancion{
+  text-align: center;
+  color: white;
+}
+#ver{
+  margin-left: 162px;
+}
